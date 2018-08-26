@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import CounterControl from '../../components/CounterControl/CounterControl';
 import CounterOutput from '../../components/CounterOutput/CounterOutput';
 import './Counter.css';
-import * as actionCreators from '../../store/actions/actions';
+import * as actionCreators from '../../store/actions';
 const olStyle = {
     border: '1px solid lightgrey', 
     fontSize: '25px'
