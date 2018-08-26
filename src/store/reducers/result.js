@@ -1,4 +1,4 @@
-import * as actionTypes from '../actions'
+import * as actionTypes from '../actions/actions';
 
 const initialState = {
     results: []
@@ -20,7 +20,9 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 results: updatedArray
-            }        
+            }
+        
+        default: 
     }
     return state;
 };
